@@ -1,0 +1,27 @@
+.slide-item-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+  margin: 20px;
+  height: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 6px 6px 0px gray;
+  border-radius: 5px;
+}
+.heading {
+  margin-bottom: 0px;
+  color: #0967d2;
+}
+.description {
+  margin-top: 0px;
+}
+.slide-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 20vw;
+}
